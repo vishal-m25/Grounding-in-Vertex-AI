@@ -2,7 +2,7 @@ import vertexai
 from vertexai.language_models import TextGenerationModel, GroundingSource
 from google.oauth2.service_account import Credentials
 
-key_path='project-411006-610b3f7622fe.json' ## Replace with your json file name
+key_path='project-411006-610b3f7622fe.json' ## Replace with your json key file name
 credentials = Credentials.from_service_account_file(
     key_path,
     scopes=['https://www.googleapis.com/auth/cloud-platform'])
